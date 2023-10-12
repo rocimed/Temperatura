@@ -25,8 +25,6 @@ function agregarTemperatura() {
     }
 }
 
-
-
 function dibujarGrafico() {
     const data = temperaturas.map(item => item.temperatura);
     const labels = temperaturas.map((item, i) => "Día " + diasSemana[i]);
@@ -39,7 +37,7 @@ function dibujarGrafico() {
             datasets: [{
                 label: 'Temperatura',
                 data: data,
-                borderColor: 'blue',
+                borderColor: 'white',
                 fill: false,
             }]
         },
@@ -82,7 +80,7 @@ function actualizarTemperaturas() {
     ulTemperaturas.innerHTML = '';
     for (let i = 0; i < temperaturas.length; i++) {
         const li = document.createElement('li');
-        li.textContent = "Día "+diasSemana[i]+ ":"+temperaturas[i].temperatura.toFixed(2);
+        li.textContent = "Día "+diasSemana[i]+ ": "+temperaturas[i].temperatura.toFixed(2);
         ulTemperaturas.appendChild(li);
     }
 }

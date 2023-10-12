@@ -15,8 +15,26 @@ body{
     background-image: linear-gradient(rgb(167, 83, 241),rgb(61, 244, 223));
     color: beige;
     font-size: 30px;
+    padding: 10px 25px;
+}
+.container button{
+    background-color: rgb(104, 42, 165);
+    color: azure;
+    font-size: 20px;
+    border-color: transparent;
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+.container button:hover{
+    background-color: aqua;
 }
 .graf{
+        width: 80%; 
+        max-width: 800px; 
+        height: 400px; 
     background-image: linear-gradient(rgb(255, 0, 187),rgb(136, 80, 239),rgb(205, 71, 215));
-    color: beige;
+    color: azure;
+}
+.resumen{
+    background-image: linear-gradient(rgb(135, 87, 238), rgb(178, 103, 249),rgb(190, 113, 246));
 }

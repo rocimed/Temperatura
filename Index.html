@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <h1>Temperatura de la semana</h1>
     <div class="container">
+        <h1>Temperatura de la semana</h1>
         <label for="tempInput">Ingresa la temperatura: </label>
         <input type="number" placeholder="Grados celcius" id="tempInput">
         <button onclick="agregarTemperatura()">Agregar</button>
@@ -23,7 +23,7 @@
     <div class="graf">
         <canvas id="temperaturaChart" width="400" height="200"></canvas>
     </div>
-    <div>
+    <div class="resumen">
         <ul id="temperaturas"></ul>
         <h2>Resumen</h2>
         <p>Temperatura Máxima: <span id="tempMax">N/A</span></p>
