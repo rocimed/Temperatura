@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Noto Serif', serif;
+}
+.container{
+    max-width: 1550px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(167, 83, 241),rgb(61, 244, 223));
+    color: beige;
+    font-size: 30px;
+}
+.graf{
+    background-image: linear-gradient(rgb(255, 0, 187),rgb(136, 80, 239),rgb(205, 71, 215));
+    color: beige;
+}

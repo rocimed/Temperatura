@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima</title>
-    <!--link rel="stylesheet" href="style.css"--->
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
     <script src="Clima.js"></script>
 
@@ -15,13 +15,12 @@
 <body>
     <h1>Temperatura de la semana</h1>
     <div class="container">
-
         <label for="tempInput">Ingresa la temperatura: </label>
         <input type="number" placeholder="Grados celcius" id="tempInput">
         <button onclick="agregarTemperatura()">Agregar</button>
 
     </div>
-    <div>
+    <div class="graf">
         <canvas id="temperaturaChart" width="400" height="200"></canvas>
     </div>
     <div>
