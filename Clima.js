@@ -1,10 +1,10 @@
 const temperaturas = [];
 let dia = 1;
 const diasSemana = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
-let isInputEnabled = true; 
+let InputEnabled = true; 
 
 function agregarTemperatura() {
-    if (!isInputEnabled) {
+    if (!InputEnabled) {
         return;
     }
     const tempInput = document.getElementById('tempInput');
@@ -19,7 +19,7 @@ function agregarTemperatura() {
         dia++
 
         if (dia > 7) {
-            isInputEnabled = false; 
+            InputEnabled = false; 
         }
 
     }
