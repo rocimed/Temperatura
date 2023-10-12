@@ -29,17 +29,20 @@ function dibujarGrafico() {
     const data = temperaturas.map(item => item.temperatura);
     const labels = temperaturas.map((item, i) => "Día " + diasSemana[i]);
 
+
     const ctx = document.getElementById('temperaturaChart').getContext('2d');
     const chart = new Chart(ctx, {
         type: 'line',
         data: {
             labels: labels,
-            datasets: [{
+             datasets: [{
                 label: 'Temperatura',
                 data: data,
                 borderColor: 'white',
                 fill: false,
+
             }]
+            
         },
         options: {
             scales: {
